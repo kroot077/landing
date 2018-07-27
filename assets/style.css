@@ -1,0 +1,96 @@
+html {
+    font-family: 'Questrial';
+}
+
+nav {
+    height: 75px;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-button-l {
+    font-weight: 150px;
+    letter-spacing: 3px;
+    border: 0px;
+    border-radius: 15px;
+    padding: 0px 30px 0px 30px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    display: inline-block;
+    opacity: 0.5;
+    filter: alpha(opacity=50%);
+    box-shadow: 0px 0px 15px #d6d6d6;
+}
+
+.nav-button-l:hover {
+    opacity: 1;
+    filter: alpha(opacity=100%);
+    box-shadow: 0px 0px 30px #2e2e2e;
+}
+
+.nav-button-r {
+    font-weight: 150px;
+    letter-spacing: 3px;
+    border: 0px;
+    border-radius: 15px;
+    padding: 0px 30px 0px 30px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    display: inline-block;
+    opacity: 0.5;
+    filter: alpha(opacity=50%);
+    box-shadow: 0px 0px 15px #d6d6d6;
+}
+
+.nav-button-r:hover {
+    opacity: 1;
+    filter: alpha(opacity=100%);
+    box-shadow: 0px 0px 30px #2e2e2e;
+}
+
+#main {
+    height: 100vh;
+    background-image: url(images/root.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about {
+    height: 100vh;
+}
+
+#portfolio {
+    height: 100vh;
+}
+
+#skills {
+    height: 100vh;
+}
+
+#contact {
+    height: 100vh;
+}
+
+#logo {
+    max-width: 75px;
+    display: inline-block;
+    opacity: 0.5;
+    filter: alpha(opacity=50%);
+    box-shadow: 0px 0px 30px #d6d6d6;
+}
+
+#logo:hover {
+    opacity: 1;
+    filter: alpha(opacity=100%);
+    box-shadow: 0px 0px 30px #2e2e2e;
+}
